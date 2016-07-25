@@ -2,8 +2,8 @@ name: data-products-assignment
 account: judda
 server: shinyapps.io
 appId: 116634
-bundleId: 515217
+bundleId: 515241
 url: https://judda.shinyapps.io/data-products-assignment/
-when: 1469483518.02036
+when: 1469484370.64564
 asMultiple: FALSE
 asStatic: FALSE
