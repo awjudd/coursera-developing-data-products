@@ -1,11 +1,6 @@
-#
-# This is the user-interface definition of a Shiny web application. You can
-# run the application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
+# Author: Andrew Judd
+# Date: July 25, 2016
+# Description: Coursera - Developing Data Products Course Assignment
 
 library(shiny)
 
@@ -16,9 +11,11 @@ shinyUI(
         # Application title
         titlePanel("Tooth Growth Data Explorer"),
         
-        # Sidebar with a slider input for number of bins 
+        # Make the layut one with a sidebar
         sidebarLayout(
             
+            # Sidebar which will contain all of the inputs that the
+            # table will react to
             sidebarPanel(
                 selectInput(
                     "supplement",
@@ -41,7 +38,7 @@ shinyUI(
                 )
             ),
         
-            # Show a plot of the generated distribution
+            # Show the filtered data set
             mainPanel(
                dataTableOutput('toothData')
             )

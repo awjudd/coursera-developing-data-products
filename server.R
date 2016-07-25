@@ -1,11 +1,6 @@
-#
-# This is the server logic of a Shiny web application. You can run the 
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
+# Author: Andrew Judd
+# Date: July 25, 2016
+# Description: Coursera - Developing Data Products Course Assignment
 
 # Load the libraries that we need
 library(shiny)
