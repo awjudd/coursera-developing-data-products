@@ -10,7 +10,7 @@ shinyUI(
     fluidPage(
 
         # Application title
-        titlePanel("Tooth Growth Data Explorer"),
+        titlePanel("Tooth Growth in Guinea Pigs Data Explorer"),
         tabsetPanel(
             tabPanel("Explore the Data",
                 # Make the layut one with a sidebar

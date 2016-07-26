@@ -6,7 +6,13 @@ This data set is a test to see how the length of the teeth in 60 guinea pigs rea
 
 # Filters
 
-You will notice on the **Explore the Data** tab, on the left hand side, a list of 3 parameters.  Use these to filter and restrict the data in different ways.
+On the left hand side of the application, you will notice on the **Explore the Data** tab.  On the left hand side of the application there are a list of 3 parameters which you are able to use in order to explore the data.
+
+The three parameters are as follows:
+
+ * Supplement - ALL, OJ, VC
+ * Dosage (milligrams/day) - 0.5 to 2
+ * Tooth Length - 4 to 34
 
 # Author
 
